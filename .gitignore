@@ -1,0 +1,46 @@
+﻿# Environment / secrets
+.env
+.env.*
+.env.local
+.env.production
+.env.staging
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node & Package Managers
+node_modules/
+.npm/
+
+# Build output
+# dist/
+
+# Local uploads & generated runtime data
+uploads/
+backend/app/data/routine_logs.json
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local project metadata & scratch investigation dumps
+.thumbnail
+*-code.txt
+*-router.txt
+*-current.txt
+schemas.txt
